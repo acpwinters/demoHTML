@@ -2,8 +2,24 @@
 <html>
 	<head>
 		<title>ACPWinters</title>
+	<style>
+.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 25%;
+}
+	</style>
 	</head>
-	<body>
-		<h1>Title</h1>
+	<body style="background-color:#bfbfbf">
+		<h2 style="text-align:center;color:#28456c;font-family:courier;">Welcome to <a style="color:white;text-decoration:none;font-family:courier;" href="https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515">minimalism</a>.</h2>
+		<img class="center" src="/home/h0zy/compass.png">
+		<button onclick="clickitty()" style="margin-left:30%" >Woof?</button>
+		<p style="color:#28456c;font-family:courier;margin-left:31%;font-weight:bold;" id="kitty"></p>
+		<script>
+			function clickitty() {
+							document.getElementById("kitty").innerHTML = "meow";
+						}
+		</script>
 	</body>
 </html>
